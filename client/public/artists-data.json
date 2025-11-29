@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1,
+    "name": "LUANZITTO",
+    "genre": "Arrochadeira",
+    "image": "/artists/luanzitto222.jpg",
+    "location": "Camaçari - BA",
+    "description": "Natural de Camaçari (BA), Luanzitto (Luanderson do Santos Brito) encontrou na música sua força desde a infância. Radicado no Norte de Minas Gerais, onde liderou bandas de sucesso, iniciou sua carreira solo em 2021 com o hit 'Me Pega De Novo', que viralizou e se tornou sucesso regional. Focado no Brega Romântico e com presença marcante em grandes eventos ao lado de nomes como Amado Batista e Bell Marques, o artista prepara seu primeiro CD oficial para 2025, reafirmando-se como uma voz autêntica da cultura popular.",
+    "instagram": "https://www.instagram.com/luanzittooficial",
+    "youtube": "https://www.youtube.com/watch?v=-fPMMgY_JvY",
+    "videoID": "-fPMMgY_JvY",
+    "spotifyID": "5vIUHv84DfNIChaRPfhZGO",
+    "stats": {
+      "shows": 150,
+      "streams": "2M+",
+      "followers": "500K"
+    },
+    "albums": [
+      {
+        "year": 2023,
+        "title": "Ao Vivo na Bahia",
+        "cover": "https://via.placeholder.com/150/1a1a1a/d4af37?text=2023"
+      },
+      {
+        "year": 2024,
+        "title": "Me Pega de Novo",
+        "cover": "https://via.placeholder.com/150/1a1a1a/d4af37?text=2024"
+      },
+      {
+        "year": 2025,
+        "title": "Verão Luanzitto",
+        "cover": "https://via.placeholder.com/150/1a1a1a/d4af37?text=2025"
+      }
+    ],
+    "instagramFeed": [
+      "/artists/luanzitto222.jpg",
+      "/artists/leão.jpg",
+      "/artists/leão4.jpg",
+      "/artists/fundo01.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Miguel & Daniel",
+    "genre": "Sertanejo",
+    "image": "/artists/md01.jpg",
+    "location": "Curitiba - PR / Rio de Janeiro - RJ",
+    "description": "A dupla sertaneja Miguel & Daniel, que iniciou sua trajetória compondo para nomes como Zé Neto & Cristiano, oficializou a parceria nos palcos em 2023. Em 2024, lançaram o audiovisual 'Jeitão de Interior', gravado no interior de SP, destacando o sucesso 'Não Tô Gostando' e faixas autorais. Com mais de 650 mil streams acumulados nas plataformas, a dupla já se consolida como uma nova promessa do gênero.",
+    "instagram": "https://www.instagram.com/migueledaniel",
+    "youtube": "https://www.youtube.com/@migueledanieloficial",
+    "videoID": "",
+    "spotifyID": "5it1L2qpn43Hdyb3N0EBiD",
+    "stats": {
+      "shows": 80,
+      "streams": "650K",
+      "followers": "100K"
+    },
+    "albums": [
+      {
+        "year": 2024,
+        "title": "Jeitão de Interior",
+        "cover": "https://via.placeholder.com/150/1a1a1a/d4af37?text=DVD"
+      }
+    ],
+    "instagramFeed": [
+      "/artists/md01.jpg",
+      "/artists/leão.jpg",
+      "/artists/leão4.jpg",
+      "/artists/fundo01.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Luiz Gustavo",
+    "genre": "Sertanejo",
+    "image": "/artists/luiz01.jpg",
+    "location": "Brasília - DF",
+    "description": "Natural de Brasília (DF), Luiz Gustavo consolidou-se em grandes eventos nacionais unindo a essência do modão clássico ao sertanejo moderno e arrocha universitário. Com passagens marcantes por feiras como a Expoabra e turnês pelo interior da Bahia, o cantor lidera o projeto 'Moda Que Não Sai de Moda' e já apresentou seu trabalho na TV no programa Balanço Geral. Seu repertório autêntico inclui sucessos como 'Coração Viciado', 'Foi Mal Ai', 'Contra Mão' e 'Coração Machucad'.",
+    "instagram": "https://www.instagram.com/luiizgustavoofc",
+    "youtube": "#",
+    "videoID": "",
+    "spotifyID": "0QcMU0Kbt2wYTVpRUiCB0S",
+    "stats": {
+      "shows": 200,
+      "streams": "1M+",
+      "followers": "300K"
+    },
+    "albums": [
+      {
+        "year": 2022,
+        "title": "Moda Que Não Sai",
+        "cover": "https://via.placeholder.com/150/1a1a1a/d4af37?text=2022"
+      }
+    ],
+    "instagramFeed": [
+      "/artists/luiz01.jpg",
+      "/artists/leão.jpg",
+      "/artists/leão4.jpg",
+      "/artists/fundo01.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bella Alencar",
+    "genre": "Sertanejo",
+    "image": "/artists/bella01.jpg",
+    "location": "Goiânia - GO",
+    "description": "Natural de Goiânia (GO), Bella Alencar (19 anos) é cantora, compositora, modelo e influenciadora. Iniciou sua trajetória musical aos 3 anos e ganhou projeção nacional aos 12 ao participar do The Voice Kids Brasil (Time Ivete Sangalo). Campeã de festivais renomados como o 'Mais Sertanejo' e 'Canta Aparecida', sua discografia inclui o feat 'Como Antigamente' com Amado Batista e a regravação de 'Um Dia de Domingo', tema da novela As Aventuras de Poliana. Nas redes sociais, a artista acumula milhões de visualizações e mais de 138 mil seguidores no Instagram.",
+    "instagram": "https://www.instagram.com/bellaalencarcantora",
+    "youtube": "#",
+    "videoID": "",
+    "spotifyID": "0ZXLnj50mFGUtDo6hgpKpu",
+    "stats": {
+      "shows": 50,
+      "streams": "100K",
+      "followers": "1M+"
+    },
+    "albums": [],
+    "instagramFeed": [
+      "/artists/bella01.jpg",
+      "/artists/leão.jpg",
+      "/artists/leão4.jpg",
+      "/artists/fundo01.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Dihh Negão",
+    "genre": "Arrochadeira",
+    "image": "/artists/dihh01.jpg",
+    "location": "Boquira - BA",
+    "description": "Natural de Boquira, no coração da Bahia, Dihh Negão (Edinaelson Alves de Lima) iniciou sua trajetória consagrado pelo público como 'A Seresta do Negão', levando romantismo por todo o Nordeste. Atualmente radicado em São Paulo, ele evoluiu sua sonoridade para um mix envolvente de arrocha, brega e seresta moderna. Conhecido como 'A Voz do Arrocha na Alma', Dihh destaca-se pelo carisma e por interpretações apaixonadas que conectam gerações, unindo a tradição de suas raízes à energia da cena musical atual.",
+    "instagram": "https://www.instagram.com/dihnegaooficial",
+    "youtube": "#",
+    "videoID": "",
+    "spotifyID": "0P8kxtCtJeh7U3iur8WV8n",
+    "stats": {
+      "shows": 300,
+      "streams": "5M+",
+      "followers": "200K"
+    },
+    "albums": [],
+    "instagramFeed": [
+      "/artists/dihh01.jpg",
+      "/artists/leão.jpg",
+      "/artists/leão4.jpg",
+      "/artists/fundo01.jpg"
+    ]
+  }
+]

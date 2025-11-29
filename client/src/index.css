@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+/* Importação das Fontes Premium */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* ... (mantive suas variáveis anteriores aqui, não precisa mexer) ... */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  /* Adicionando as fontes ao tema do Tailwind */
+  --font-sans: "Montserrat", sans-serif;
+  --font-serif: "Cinzel", serif;
+  --font-heading: "Cinzel", serif;
+}
+
+/* ... (variáveis de cor :root e .dark mantidas iguais, não vou repetir para economizar espaço, mantenha as suas) ... */
+
+:root {
+  --primary: #d97706;
+  --primary-foreground: #000;
+  /* ... mantenha suas cores aqui ... */
+  --background: oklch(0.08 0 0);
+  --foreground: oklch(0.95 0.005 65);
+  /* ... */
+}
+
+/* Configuração Base das Fontes */
+@layer base {
+  html {
+    font-family: 'Montserrat', sans-serif; /* Texto padrão elegante */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif; /* Títulos com estilo Imperial */
+    text-transform: uppercase; /* Títulos sempre em caixa alta para autoridade */
+  }
+
+  /* Ajuste para textos ficarem mais leves e premium */
+  p {
+    font-weight: 300; /* Light */
+    letter-spacing: 0.02em;
+  }
+  
+  /* ... (restante do seu CSS mantido) ... */
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]) {
+    @apply cursor-pointer;
+  }
+}
+
+/* ... (suas animações e @layer components mantidos) ... */
+@layer utilities {
+  .animate-zoom { animation: zoom 20s ease-in-out infinite; }
+  .animate-fade-in { animation: fade-in 0.8s ease-out; }
+  /* ... */
+}
