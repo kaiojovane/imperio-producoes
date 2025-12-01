@@ -57,7 +57,7 @@ export default function Home() {
 
           {/* Subheading */}
           <p className="text-sm sm:text-lg md:text-xl text-gray-300 mb-8 sm:mb-12 max-w-2xl mx-auto leading-relaxed font-light">
-            Elevando seu evento ao patamar da excelência com representação de classe mundial e infraestrutura impecável.
+            Levando os maiores talentos do Brasil para o seu palco. A excelência que seu evento merece com elenco exclusivo e gestão artística profissional.
           </p>
 
           {/* CTA Button */}
@@ -170,14 +170,15 @@ export default function Home() {
                   icon: '📞',
                   title: 'ATENDIMENTO',
                   items: [
-                    { label: '+55 (62) 99611-8200', href: 'tel:+5562996118200' },
-                    { label: '+55 (38) 99182-7220', href: 'tel:+5538991827220' },
+                    { label: '+55 (34) 99630-9945 "GIL"', href: 'https://wa.me/+5534996309945' },
+                    { label: '+55 (62) 99611-8200 "Robson"', href: 'https://wa.me/+5562996118200' },
+                    { label: '+55 (62) 99830-9952 "JLX"', href: 'https://wa.me/+5562998309952' },
                   ],
                 },
                 {
                   icon: '✉️',
                   title: 'EMAIL COMERCIAL',
-                  items: [{ label: 'ollivarafael@gmail.com', href: 'mailto:ollivarafael@gmail.com' }],
+                  items: [{ label: 'sacimperioproducoes@gmail.com', href: 'mailto:ollivarafael@gmail.com' }],
                 },
                 {
                   icon: '📍',
@@ -256,7 +257,7 @@ export default function Home() {
 
       {/* WhatsApp Float Button */}
       <a
-        href="https://wa.me/5562996118200"
+        href="https://wa.me/+5562998309952"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 w-16 h-16 bg-green-600 hover:bg-green-500 text-white rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(34,197,94,0.5)] transition duration-300 transform hover:scale-110 animate-bounce"

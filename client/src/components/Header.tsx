@@ -35,13 +35,13 @@ export default function Header() {
         }
       `}</style>
 
-      <div className="w-full max-w-[1920px] mx-auto px-6 sm:px-12 py-3 flex justify-between items-center">
+      <div className="w-full max-w-[1920px] mx-auto px-4 sm:px-12 py-3 flex justify-between items-center">
         
-        {/* Lado Esquerdo: Ícone Novo + Texto Original */}
-        <div className="flex items-center gap-3 group cursor-pointer select-none">
+        {/* Lado Esquerdo: Ícone + Texto (Agora visível no mobile) */}
+        <div className="flex items-center gap-2 sm:gap-3 group cursor-pointer select-none">
           
-          {/* Símbolo Vetorial (Mantido o novo bonito) */}
-          <div className="relative w-10 h-10 flex items-center justify-center animate-symbol">
+          {/* Símbolo Vetorial */}
+          <div className="relative w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center animate-symbol flex-shrink-0">
             <svg
               viewBox="0 0 24 24"
               fill="none"
@@ -56,10 +56,10 @@ export default function Header() {
             </svg>
           </div>
           
-          {/* Texto (Restaurado para o estilo original) */}
-          <div className="hidden sm:block">
-            <h1 className="text-lg md:text-xl font-black tracking-widest text-white drop-shadow-md">
-              IMPÉRIO <span className="bg-gradient-to-r from-amber-400 via-amber-300 to-amber-600 bg-clip-text text-transparent">PRODUÇÕES</span>
+          {/* Texto (CORRIGIDO: Removido 'hidden', ajustado tamanho para mobile) */}
+          <div className="block">
+            <h1 className="text-sm sm:text-lg md:text-xl font-black tracking-widest text-white drop-shadow-md leading-none">
+              IMPÉRIO <span className="bg-gradient-to-r from-amber-400 via-amber-300 to-amber-600 bg-clip-text text-transparent block sm:inline">PRODUÇÕES</span>
             </h1>
           </div>
         </div>
@@ -73,7 +73,6 @@ export default function Header() {
               className="relative text-gray-400 text-[11px] font-bold tracking-[0.2em] py-1 hover:text-white transition-colors duration-300 group/link"
             >
               {link.label}
-              {/* Linha dourada animada no hover */}
               <span className="absolute bottom-0 right-0 w-0 h-[1px] bg-gradient-to-r from-transparent via-amber-500 to-transparent transition-all duration-300 group-hover/link:w-full group-hover/link:left-0"></span>
             </a>
           ))}
@@ -84,7 +83,7 @@ export default function Header() {
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           className="md:hidden text-amber-500 hover:text-amber-300 transition p-1 hover:bg-white/5 rounded-md"
         >
-          {mobileMenuOpen ? <X size={26} /> : <Menu size={26} />}
+          {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
 

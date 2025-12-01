@@ -21,6 +21,9 @@ export default function ArtistDetail() {
     return <div className="min-h-screen bg-black flex items-center justify-center text-gray-500 font-heading tracking-widest">CARREGANDO...</div>;
   }
 
+  // Lógica do número do WhatsApp (Específico do artista ou Padrão)
+  const whatsappNumber = artist.whatsapp ? artist.whatsapp.replace(/\D/g, '') : "5562996118200";
+
   return (
     <div className="min-h-screen bg-black text-white font-sans overflow-x-hidden">
       <Header />
@@ -75,13 +78,8 @@ export default function ArtistDetail() {
             </p>
           </div>
 
-          {/* Stats Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            <div className="bg-gray-900/30 border border-gray-800 p-8 text-center rounded-sm hover:border-amber-600/50 transition duration-500 group">
-              <Calendar className="mx-auto text-amber-600 mb-4 group-hover:scale-110 transition" size={28} />
-              <h3 className="font-heading text-4xl font-black text-white mb-2">{artist.stats.shows}</h3>
-              <p className="text-xs uppercase tracking-widest text-gray-500">Shows/Ano</p>
-            </div>
+          {/* Stats Grid (AGORA SÓ COM 2 ITENS: STREAMS E SEGUIDORES) */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="bg-gray-900/30 border border-gray-800 p-8 text-center rounded-sm hover:border-amber-600/50 transition duration-500 group">
               <Music className="mx-auto text-amber-600 mb-4 group-hover:scale-110 transition" size={28} />
               <h3 className="font-heading text-4xl font-black text-white mb-2">{artist.stats.streams}</h3>
@@ -103,7 +101,14 @@ export default function ArtistDetail() {
                   <div key={album.title} className="min-w-[200px] group cursor-pointer">
                     <div className="w-full aspect-square overflow-hidden shadow-xl mb-4 relative bg-gray-900 border border-gray-800">
                       <div className="absolute inset-0 bg-amber-600/20 opacity-0 group-hover:opacity-100 transition z-10 mix-blend-overlay"></div>
-                      <img src={album.cover} alt={album.title} className="w-full h-full object-cover group-hover:scale-110 transition duration-700" />
+                      <img 
+                        src={getImageUrl(album.cover)} 
+                        alt={album.title} 
+                        className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                        onError={(e) => {
+                          e.currentTarget.src = 'https://placehold.co/400x400/1a1a1a/FFF?text=Capa';
+                        }}
+                      />
                     </div>
                     <p className="text-amber-500 text-xs font-bold mb-1">{album.year}</p>
                     <p className="text-white font-heading font-bold text-lg leading-tight uppercase group-hover:text-amber-400 transition">{album.title}</p>
@@ -147,19 +152,20 @@ export default function ArtistDetail() {
                   ))}
                 </div>
 
+                {/* BOTÃO PRINCIPAL (SEM NÚMEROS AVULSOS EM CIMA) */}
                 <a
-                  href={`https://wa.me/5562996118200?text=Olá! Gostaria de um orçamento para ${artist.name}`}
+                  href={`https://wa.me/${whatsappNumber}?text=Olá! Gostaria de um orçamento para ${artist.name}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group/btn flex items-center justify-center gap-3 w-full bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-yellow-400 text-black font-heading font-black py-4 rounded-lg text-sm tracking-[0.15em] transition-all duration-300 shadow-[0_5px_20px_rgba(217,119,6,0.3)] hover:shadow-[0_8px_25px_rgba(217,119,6,0.5)] transform hover:-translate-y-1"
                 >
                   <MessageCircle size={20} className="group-hover/btn:scale-110 transition" />
-                  SOLICITAR ORÇAMENTO
+                  ORÇAMENTO WHATSAPP
                 </a>
               </div>
             </div>
 
-            {/* ADICIONADO: Redes Sociais */}
+            {/* Redes Sociais */}
             <div className="grid grid-cols-2 gap-4">
               {artist.instagram && (
                 <a
@@ -173,7 +179,6 @@ export default function ArtistDetail() {
                 </a>
               )}
               
-              {/* Verifica se tem link do YouTube válido */}
               {(artist.youtube && artist.youtube !== '#' && artist.youtube !== '') ? (
                 <a
                   href={artist.youtube}
@@ -185,7 +190,6 @@ export default function ArtistDetail() {
                   <span className="text-xs font-heading font-bold tracking-widest">YOUTUBE</span>
                 </a>
               ) : (
-                // Botão desativado se não tiver YouTube
                 <div className="flex items-center justify-center gap-2 bg-gray-900/50 border border-gray-800/50 py-3 rounded-lg text-gray-600 cursor-not-allowed">
                   <Youtube size={20} />
                   <span className="text-xs font-heading font-bold tracking-widest">YOUTUBE</span>

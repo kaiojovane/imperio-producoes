@@ -12,31 +12,25 @@
     "spotifyID": "5vIUHv84DfNIChaRPfhZGO",
     "stats": {
       "shows": 150,
-      "streams": "2M+",
-      "followers": "500K"
+      "streams": "300K+",
+      "followers": "10K+"
     },
     "albums": [
       {
         "year": 2023,
-        "title": "Ao Vivo na Bahia",
-        "cover": "https://via.placeholder.com/150/1a1a1a/d4af37?text=2023"
+        "title": "Altamente Viciante",
+        "cover": "/artists/luandc2.jpg"
       },
       {
         "year": 2024,
         "title": "Me Pega de Novo",
-        "cover": "https://via.placeholder.com/150/1a1a1a/d4af37?text=2024"
+        "cover": "/artists/luandc3.jpg"
       },
       {
         "year": 2025,
-        "title": "Verão Luanzitto",
-        "cover": "https://via.placeholder.com/150/1a1a1a/d4af37?text=2025"
+        "title": "Tbt de verão",
+        "cover": "/artists/luandc1.jpg"
       }
-    ],
-    "instagramFeed": [
-      "/artists/luanzitto222.jpg",
-      "/artists/leão.jpg",
-      "/artists/leão4.jpg",
-      "/artists/fundo01.jpg"
     ]
   },
   {
@@ -52,21 +46,25 @@
     "spotifyID": "5it1L2qpn43Hdyb3N0EBiD",
     "stats": {
       "shows": 80,
-      "streams": "650K",
-      "followers": "100K"
+      "streams": "3M+",
+      "followers": "15K+"
     },
     "albums": [
       {
+        "year": 2025,
+        "title": "Leite Ninho",
+        "cover": "/artists/mddc2.jpg"
+      },
+      {
+        "year": 2025,
+        "title": "Chave de Roda",
+        "cover": "/artists/mddc3.jpg"
+      },
+      {
         "year": 2024,
-        "title": "Jeitão de Interior",
-        "cover": "https://via.placeholder.com/150/1a1a1a/d4af37?text=DVD"
+        "title": "Por Onde Você Gosta",
+        "cover": "/artists/mddc1.jpg"
       }
-    ],
-    "instagramFeed": [
-      "/artists/md01.jpg",
-      "/artists/leão.jpg",
-      "/artists/leão4.jpg",
-      "/artists/fundo01.jpg"
     ]
   },
   {
@@ -83,20 +81,14 @@
     "stats": {
       "shows": 200,
       "streams": "1M+",
-      "followers": "300K"
+      "followers": "13K+"
     },
     "albums": [
       {
         "year": 2022,
-        "title": "Moda Que Não Sai",
-        "cover": "https://via.placeholder.com/150/1a1a1a/d4af37?text=2022"
+        "title": "Moda Que Não Sai De Moda",
+        "cover": "/artists/luizdc1.jpg"
       }
-    ],
-    "instagramFeed": [
-      "/artists/luiz01.jpg",
-      "/artists/leão.jpg",
-      "/artists/leão4.jpg",
-      "/artists/fundo01.jpg"
     ]
   },
   {
@@ -107,20 +99,30 @@
     "location": "Goiânia - GO",
     "description": "Natural de Goiânia (GO), Bella Alencar (19 anos) é cantora, compositora, modelo e influenciadora. Iniciou sua trajetória musical aos 3 anos e ganhou projeção nacional aos 12 ao participar do The Voice Kids Brasil (Time Ivete Sangalo). Campeã de festivais renomados como o 'Mais Sertanejo' e 'Canta Aparecida', sua discografia inclui o feat 'Como Antigamente' com Amado Batista e a regravação de 'Um Dia de Domingo', tema da novela As Aventuras de Poliana. Nas redes sociais, a artista acumula milhões de visualizações e mais de 138 mil seguidores no Instagram.",
     "instagram": "https://www.instagram.com/bellaalencarcantora",
-    "youtube": "#",
-    "videoID": "",
+    "youtube": "https://www.youtube.com/watch?v=Se8XjNR8mAw",
+    "videoID": "Se8XjNR8mAw",
     "spotifyID": "0ZXLnj50mFGUtDo6hgpKpu",
     "stats": {
       "shows": 50,
       "streams": "100K",
       "followers": "1M+"
     },
-    "albums": [],
-    "instagramFeed": [
-      "/artists/bella01.jpg",
-      "/artists/leão.jpg",
-      "/artists/leão4.jpg",
-      "/artists/fundo01.jpg"
+    "albums": [
+      {
+        "year": 2024,
+        "title": "Como Antigamente",
+        "cover": "/artists/belladc1.jpg"
+      },
+      {
+        "year": 2020,
+        "title": "No Colo da Paz",
+        "cover": "/artists/belladc3.jpg"
+      },
+      {
+        "year": 2019,
+        "title": "Um Dia de Domingo",
+        "cover": "/artists/belladc2.jpg"
+      }
     ]
   },
   {
@@ -139,12 +141,22 @@
       "streams": "5M+",
       "followers": "200K"
     },
-    "albums": [],
-    "instagramFeed": [
-      "/artists/dihh01.jpg",
-      "/artists/leão.jpg",
-      "/artists/leão4.jpg",
-      "/artists/fundo01.jpg"
+    "albums": [
+      {
+        "year": 2025,
+        "title": "A Seresta do Negão 4.0",
+        "cover": "/artists/dihdc3.jpg"
+      },
+      {
+        "year": 2024,
+        "title": "A Seresta do Negão 3.0",
+        "cover": "/artists/dihdc2.jpg"
+      },
+      {
+        "year": 2023,
+        "title": "A Seresta do Negão 2.2",
+        "cover": "/artists/dihdc1.jpg"
+      }
     ]
   }
 ]

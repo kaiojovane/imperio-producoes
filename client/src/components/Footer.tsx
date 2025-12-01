@@ -13,7 +13,7 @@ export default function Footer() {
               IMPÉRIO <span className="text-amber-400">PRODUÇÕES</span>
             </h3>
             <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-              Excelência em produção de eventos e gerenciamento artístico de classe mundial.
+              Levando os maiores talentos do Brasil para o seu palco. A excelência que seu evento merece com elenco exclusivo e gestão artística profissional.
             </p>
           </div>
 
@@ -23,11 +23,11 @@ export default function Footer() {
             <div className="space-y-2 sm:space-y-3">
               <div className="flex items-center gap-3 text-gray-400 hover:text-amber-400 transition">
                 <Phone size={14} className="sm:w-4 sm:h-4 flex-shrink-0" />
-                <a href="tel:+5562996118200" className="text-xs sm:text-sm break-all">+55 (62) 99611-8200</a>
+                <a href="tel:+5562996118200" className="text-xs sm:text-sm break-all">+55 (62) 99830-9952</a>
               </div>
               <div className="flex items-center gap-3 text-gray-400 hover:text-amber-400 transition">
                 <Mail size={14} className="sm:w-4 sm:h-4 flex-shrink-0" />
-                <a href="mailto:ollivarafael@gmail.com" className="text-xs sm:text-sm break-all">ollivarafael@gmail.com</a>
+                <a href="mailto:ollivarafael@gmail.com" className="text-xs sm:text-sm break-all">sacimperioproducoes@gmail.com</a>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <MapPin size={14} className="sm:w-4 sm:h-4 flex-shrink-0" />
